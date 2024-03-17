@@ -2,11 +2,13 @@
 name = "database"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Vladimir Afonin <vovan0106982mail.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+psycopg2 = "^2.9.9"
+requests = "^2.31.0"
 
 
 [build-system]

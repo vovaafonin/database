@@ -4,7 +4,7 @@ import os
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-def config(filename=ROOT_DIR + "database" + "database.ini", section="postgresql"):
+def config(filename=os.path.join(ROOT_DIR, "database", "database.ini"), section="postgresql"):
     # create a parser
     parser = ConfigParser()
     # read config file
